@@ -1,0 +1,175 @@
+@font-face {
+    font-family: gilroy;
+    src: url(./Gilroy-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* <!-- color changes in the rectangle  */
+
+
+#page1 {
+    height: 100vh;
+    width: 100%;
+    background-color: #222;
+    color: #999;
+    padding: 1vw 15vw;
+}
+
+#page1 h1{
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-family: "gilroy";
+    margin-bottom: 1vw;
+}
+
+#page1 #rectangle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 25vw;
+    width: 50vw;
+    background: #333;
+    border: 2px solid black;
+}
+
+#page1 p{
+    font-size: 1.6vw;
+    color: #c7baba;
+}
+
+/* // 2. feature of image hovering inside the div */
+
+#page2{
+   min-height: 110vh;
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+    position: relative;
+}
+
+#page2 > h1{
+    font-size: 4vw;
+    text-transform: uppercase;
+    padding: 2vw 10vw;
+    margin-bottom: 5vw;
+}
+
+#page2 #ELEM{
+    border-top: 1px solid white;
+    position: relative;
+} 
+
+#page2 .elem{
+    height: 7vw;
+    width: 100%;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-transform: uppercase;
+    position: relative;
+}
+.elem h1{
+    font-size: 3vw;
+    position: relative;
+    z-index: 9;
+    mix-blend-mode: difference;
+}
+
+.elem img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+
+/* Instagram Story Feature  */
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #908f8f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#page3 h1{
+    position: absolute;
+    top: 2%;
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+
+#page3 p{
+    position: absolute;
+    top: 9%;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+#page3 #content{
+    height: 40vw;
+    width: 25vw;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-top: 7vw;
+}
+
+#stories{
+    height: 8vw;
+    width: 100%;
+    border-bottom: 1px solid #555;
+    padding: 1vw;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#stories::-webkit-scrollbar{
+    display: none;
+}
+
+#stories #story{
+    height: 6vw;
+    width: 6vw;
+    border: 3px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#fullScreen{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-size: cover;
+    background-position: center;
+}

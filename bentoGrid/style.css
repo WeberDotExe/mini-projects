@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", "Inter-Regular", system-ui, Arial, sans-serif;
+    color: white;
+}
+
+html, body {
+    
+    height: 100%;
+    width: 100%;
+    background-color: #292929;
+}
+
+main{
+    min-height: 180%;
+    width: 80%;
+    margin: 0 auto;
+    /* padding-top: 50px; */
+    display:grid;
+    grid-gap: 10px;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns:30% 350px 350px;
+    grid-template-rows: 25% 22% 20% 22%;
+    grid-template-areas: "header header header"
+                         "aside section section"
+                         "aside div1 div2"
+                         "footer1 footer1 footer2";
+}
+
+header{
+    margin-top: 3%;
+    grid-area: header;
+    text-align: center;
+    padding: 50px 85px;
+}
+header h1{
+    font-size: 4vw;
+    margin-bottom: 30px;
+}
+header h3{
+    font-weight: normal;
+    font-size: 1.5vw;
+    color: #A6A6A6;
+}
+
+
+aside{
+    background-color: #1F1F1F;
+    grid-area: aside;
+    border-radius: 20px;
+    /* position: relative; */
+ 
+}
+aside figure{
+    height: 60%;
+    width: 100%;   
+    overflow: hidden;
+    /* position: relative; */
+}
+figure img{
+    height: 100%;
+    width: 100%;
+   object-fit: cover;
+   object-position: top;
+   position: relative;
+   left: -20%;
+   top: -15%;
+}
+
+aside .content{
+    padding: 20px;
+}
+.content h1{
+    font-size: 2.5vw;
+    margin-bottom: 10px;
+}
+.content h3{
+    font-size: 1vw;
+    font-weight: normal;
+    color: #A6A6A6;
+}
+
+section{
+    background-color: #3D3D3D;
+    grid-area: section;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+
+}
+section .content{
+    height: 100%;
+    width: 50%;
+    padding: 3%;
+}
+section .content h1{
+   margin-top: 50px;
+}
+section .content h3{
+   font-weight:450; 
+}
+section figure{
+    height: 100%;
+    width: 50%;   
+}
+section figure img{
+    height: 100%;
+    width: 100%;
+   object-fit: cover;
+   object-position: top;
+   position: relative;
+  left: 2%;
+   top: 0%;
+}
+
+   
+
+#div1{
+    background-color: #171717;
+    grid-area: div1;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 10px;
+    overflow: visible;
+}
+
+#div1 .content{
+    height: 100%;
+    width: 45%;
+    padding: 3%;
+}
+#div1 .content h1{
+    font-size: 1.4vw;
+}
+#div1 .content h3{
+    font-size: 14px;
+   font-weight:400; 
+}
+#div1 figure{
+    height: 100%;
+    width: 55%;   
+}
+#div1 figure img{
+    height: 100%;
+    width: 100%;
+   object-fit: cover;
+   object-position: top;
+   position: relative;
+  left: 6%;
+   top: 0%;
+}
+
+
+#div2{
+    background-color: #1F1F1F;
+    grid-area: div2;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+#div2 .content{
+    height: 100%;
+    width: 55%;
+    padding: 3%;
+
+}
+#div2 .content h1{
+    margin-top: 55px;
+    font-size: 1.4vw;
+}
+#div2 .content h3{
+    font-size: 14px;
+   font-weight:500; 
+}
+#div2 figure{
+    height: 100%;
+    width: 45%;   
+}
+#div2 figure img{
+    height: 100%;
+    width: 100%;
+   object-fit: cover;
+   object-position: top;
+   position: relative;
+  left: 27%;
+   top: -10%;
+}
+
+#footer1{
+    background-color: #3D3D3D;
+    grid-area: footer1;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#footer1 .content{
+    height: 100%;
+    width: 40%;
+    padding: 3%;
+    margin-top: 50px;
+}
+#footer1 .content h1{
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+#footer1 .content h3{
+    font-size: 16px;
+}
+
+#footer1 figure{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+} 
+
+#footer1 figure img{
+    height: 100%;
+    width: 100%;
+   object-fit: cover;
+   object-position: top;
+   position: relative;
+  left: 20%;
+   top: -45%;
+   transform: rotate(15deg);
+}
+
+
+
+#footer2{
+    background-color: #171717;
+    grid-area: footer2;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#footer2 h1{
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+}
+
+#footer2 figure{
+   height: 70%;
+   width: 100%;
+}
+#footer2 figure img{
+   height: 100%;
+   width: 100%;
+   position: relative;
+   top: 8%;
+   left: -10%;
+  
+}
