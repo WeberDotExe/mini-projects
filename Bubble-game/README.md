@@ -41,7 +41,7 @@ git clone <your-repository-url>
 Go into the project folder:
 
 ```bash
-cd mini-projects/<your-folder-name>
+cd mini-projects/Bubble-game
 ```
 
 Then open `index.html` in your browser.
@@ -49,7 +49,7 @@ Then open `index.html` in your browser.
 ## Project Structure
 
 ```text
-<your-folder-name>/
+Bubble-game/
 ├── index.html
 ├── style.css
 ├── script.js
