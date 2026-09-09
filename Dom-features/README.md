@@ -39,13 +39,13 @@ While building this project, I practiced:
 Clone the repository:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/WeberDotExe/mini-projects.git
 ```
 
 Go into the project folder:
 
 ```bash
-cd mini-projects/<your-folder-name>
+cd mini-projects/Dom-features
 ```
 
 Then open `index.html` in your browser.
@@ -53,7 +53,7 @@ Then open `index.html` in your browser.
 ## Project Structure
 
 ```text
-<your-folder-name>/
+Dom-features/
 ├── index.html
 ├── style.css
 ├── script.js
