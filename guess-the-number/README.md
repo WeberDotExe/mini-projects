@@ -50,7 +50,7 @@ Then open `index.html` in your browser.
 ## Project Structure
 
 ```text
-<your-folder-name>/
+guess-the-number/
 ├── index.html
 ├── style.css
 ├── script.js
