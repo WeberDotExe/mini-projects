@@ -36,13 +36,13 @@ While building this project, I practiced:
 Clone the repository:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/WeberDotExe/mini-projects.git
 ```
 
 Go into the project folder:
 
 ```bash
-cd mini-projects/<your-folder-name>
+cd mini-projects/guess-the-number
 ```
 
 Then open `index.html` in your browser.
