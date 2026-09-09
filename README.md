@@ -80,7 +80,7 @@ Each project has its own README with more details about the implementation, tech
 Clone the repository:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/WeberDotExe/mini-projects.git
 ```
 
 Move into the repository:
