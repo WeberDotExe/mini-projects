@@ -4,7 +4,7 @@ A simple browser game I built to practice JavaScript event handling, event deleg
 
 ## Live Demo
 
-[View Live Demo](#)
+bubblegame-eosin.vercel.app
 
 ## Technologies
 
