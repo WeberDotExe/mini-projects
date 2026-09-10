@@ -4,7 +4,7 @@ A password generator I built with React to practice React Hooks, state managemen
 
 ## Live Demo
 
-[View Live Demo](#)
+passwordgen-lilac-eight.vercel.app
 
 ## Technologies
 
