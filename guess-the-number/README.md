@@ -4,7 +4,7 @@ A simple number guessing game I built to practice JavaScript logic, state manage
 
 ## Live Demo
 
-[View Live Demo](#)
+numberguess-eight.vercel.app
 
 ## Technologies
 
