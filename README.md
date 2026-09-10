@@ -8,7 +8,7 @@ These projects helped me practice everything from CSS Grid and JavaScript DOM ma
 
 | # | Project                                   | Technologies                | Live Demo      |
 | - | ----------------------------------------- | --------------------------- | -------------- |
-| 1 | [Bento Grid Layout](./bentoGrid)          | HTML, CSS                   |[Live Demo]([bentogirid.netlify.app](https://agent-6aa2430eba9f17c3eac04489--bentogirid.netlify.app)) |
+| 1 | [Bento Grid Layout](./bentoGrid)          | HTML, CSS                   |[Live Demo](bentogirid.netlify.app) |
 | 2 | [Interactive Bubble Game](./Bubble-game)    | HTML, CSS, JavaScript       | [Live Demo](#) |
 | 3 | [Advanced DOM Features](./Dom-features)      | HTML, CSS, JavaScript, GSAP | [Live Demo](#) |
 | 4 | [Guess the Number](./guess-the-number)           | HTML, CSS, JavaScript       | [Live Demo](#) |
