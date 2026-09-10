@@ -10,7 +10,7 @@ These projects helped me practice everything from CSS Grid and JavaScript DOM ma
 | - | ----------------------------------------- | --------------------------- | -------------- |
 | 1 | [Bento Grid Layout](./bentoGrid)          | HTML, CSS                   |bentogirid.netlify.app |
 | 2 | [Interactive Bubble Game](./Bubble-game)    | HTML, CSS, JavaScript       | bubblegame-eosin.vercel.app|
-| 3 | [Advanced DOM Features](./Dom-features)      | HTML, CSS, JavaScript, GSAP | [Live Demo](bubblegame-eosin.vercel.app) |
+| 3 | [Advanced DOM Features](./Dom-features)      | HTML, CSS, JavaScript, GSAP | [Live Demo](uifeatures.vercel.app) |
 | 4 | [Guess the Number](./guess-the-number)           | HTML, CSS, JavaScript       | [Live Demo](#) |
 | 5 | [Spotify-Clone Music Player](./music-player) | HTML, CSS, JavaScript       | [Live Demo](#) |
 | 6 | [React Password Generator](./react-password-generator)   | React, JavaScript           | [Live Demo](#) |
