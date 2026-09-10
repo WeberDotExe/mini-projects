@@ -4,7 +4,7 @@ A responsive bento-style webpage I built to practice CSS Grid and learn how to c
 
 ## Live Demo
 
-[View Live Demo](#)
+[View Live Demo](bentogirid.netlify.app)
 
 ## Technologies
 
