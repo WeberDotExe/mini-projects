@@ -4,7 +4,7 @@ A Spotify-inspired music player I built with vanilla JavaScript to practice work
 
 ## Live Demo
 
-[View Live Demo](#)
+musicplayer-iota.vercel.app
 
 ## Technologies
 
