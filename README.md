@@ -14,7 +14,7 @@ These projects helped me practice everything from CSS Grid and JavaScript DOM ma
 | 4 | [Guess the Number](./guess-the-number)           | HTML, CSS, JavaScript       | numberguess-eight.vercel.app |
 | 5 | [Spotify-Clone Music Player](./music-player) | HTML, CSS, JavaScript       | musicplayer-iota.vercel.app |
 | 6 | [React Password Generator](./react-password-generator)   | React, JavaScript           | passwordgen-lilac-eight.vercel.app |
-| 7 | [Context API Todo List](./todolist)      | React, JavaScript           | [Live Demo](#) |
+| 7 | [Context API Todo List](./todolist)      | React, JavaScript           | todolist-ebon-three-54.vercel.app |
 
 ## What I Practiced
 
